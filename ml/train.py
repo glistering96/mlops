@@ -13,9 +13,6 @@ from utils import calculate_paired_similarities, compute_bleu_score
 mlflow.set_tracking_uri("http://mlflow.local/")
 
 os.environ["MLFLOW_EXPERIMENT_NAME"] = "ko-en-mt"
-os.environ["MLFLOW_TRACKING_URI"]="http://mlflow.local/"
-os.environ["MLFLOW_TRACKING_USERNAME"]="user"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="euvnBwWALP"
 
 model_checkpoint = "Helsinki-NLP/opus-mt-ko-en"
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, return_tensors="pt")
