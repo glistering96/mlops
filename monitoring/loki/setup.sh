@@ -1,0 +1,1 @@
+helm install lok bitnami/grafana-loki -f values.yaml --create-namespace -n monitoring

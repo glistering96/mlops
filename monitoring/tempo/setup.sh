@@ -1,0 +1,1 @@
+helm install tempo bitnami/grafana-tempo -f values.yaml --create-namespace -n monitoring

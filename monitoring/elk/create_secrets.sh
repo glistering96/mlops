@@ -1,0 +1,1 @@
+kubectl create secret generic elastic --from-literal=elasticsearch-password=elastic --dry-run -o yaml | kubectl apply -f -

@@ -1,0 +1,3 @@
+fastapi[all]
+pandas
+autogluon.tabular[lightgbm,catboost,xgboost,ray]

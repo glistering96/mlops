@@ -1,0 +1,2 @@
+replicas: 1
+elasticsearchHosts: "http://elasticsearch-master:9200"

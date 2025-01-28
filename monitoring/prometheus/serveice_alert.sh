@@ -1,0 +1,1 @@
+kubectl port-forward --namespace prometheus svc/prometheus-alertmanager 9091:80

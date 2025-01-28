@@ -1,0 +1,1 @@
+kubectl port-forward --namespace prometheus svc/prometheus-server 9090:80
